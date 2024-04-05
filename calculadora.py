@@ -12,8 +12,7 @@ divisao = False
 app= CTk()
 app.title('Calculadora')
 app.geometry('348x400')
-app.maxsize(348, 400)
-app.minsize(348, 400)
+app.resizable(False, False)
 
 def limite_entrada(entry):
     if len(entry.get()) > 18:
